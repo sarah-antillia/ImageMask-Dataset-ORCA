@@ -101,7 +101,7 @@ the script splits *png and *_mask.png files in test folder into images and masks
 To create these new dataset with images and masks sub folders, all images and masks of the original dataset are
 resized to be 512x512 pixel-size, and saved as jpg files.<br>
 
-Pleser run the following command for Python <a href="./split_master.py">split_master.py</a> 
+Please run the following command for Python <a href="./split_master.py">split_master.py</a> 
 <br>
 <pre>
 >python split_master.py

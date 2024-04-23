@@ -77,7 +77,7 @@ Please note that in this step, the orignal images and masks are slightly augment
 </pre>
 
 <b>Step2:</b><br>
-Froom dataset
+From dataset
 <pre>
 ./test
   +-- *.png
@@ -99,7 +99,7 @@ the script splits *png and *_mask.png files in test folder into images and masks
 </pre>
 
 To create these new dataset with images and mask subdataset, all images and masks of the original dataset are
-resized to be 512x512 pixel-size. 
+resized to be 512x512 pixel-size, and saved as jpg files.<br>
 
 Pleser run the following command for Python <a href="./split_master.py">split_master.py</a> 
 <br>
